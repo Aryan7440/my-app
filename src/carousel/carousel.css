@@ -1,0 +1,76 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  color: #f4f4f4;
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-content img {
+  width: 35rem;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.caro-text {
+  width: 50%;
+  padding: 20px;
+}
+.caro-head {
+  font-size: 3rem;
+}
+
+button {
+  background: #f4f4f4;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.arrow {
+  border: solid rgb(251, 0, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.caro-btn-left,
+.caro-btn-right {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  /* position: relative; */
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.caro-btn-left:hover,
+.caro-btn-right:hover {
+  transform: scale(1.2);
+}
+
+.caro-btn-left:focus,
+.caro-btn-right:focus {
+  outline: none;
+  /* box-shadow: 0 0 0 2px #000; */
+}
