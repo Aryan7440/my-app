@@ -48,6 +48,21 @@ input.invalid {
 .step.finish {
   background-color: #04aa6d;
 }
+.tab-section {
+  height: 200px;
+}
+.lr button {
+  width: 50%;
+}
 .btn-section {
   height: 5rem;
+  width: 100%;
+}
+
+.btn-submit button {
+  width: 100%;
+}
+.btn-submit {
+  width: 100%;
+  background-color: green;
 }
